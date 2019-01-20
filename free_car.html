@@ -20,6 +20,7 @@
 			<!--以下是导航栏-->
 			<div class="main-header">
 				<div class="logo-header">
+					
 					<a href="index.html" class="logo">
 						公司车辆信息管理
 					</a>
@@ -29,6 +30,28 @@
 					<button class="topbar-toggler more"><i class="la la-search search-icon"></i></button>
 				</div>
 				<nav class="navbar navbar-header navbar-expand-lg">
+					
+					<div class="container-fluid">
+					
+					<form class="navbar-left navbar-form nav-search mr-md-3" action="">
+						<div class="input-group">
+							<input class="form-control" type="text" placeholder="Search ...">
+							<div class="input-group-append">
+								<span class="input-group-text">
+									<i class="la la-search search-icon"></i>
+								</span>
+							</div>
+						</div>
+					</form>
+					
+					</div>
+					
+					
+					
+					
+					
+					
+					
 					<div class="container-fluid">
 
 						
@@ -154,9 +177,29 @@
 
 											<div class="col-12 d-flex align-items-center">
 												<div class="numbers text-center">
-													<h4 class="card-title">415会议室</h4>
-													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/15438208559256220181203.jpeg">
+													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/5.jpg">
+												<div style="float:right;margin-left: 40px;margin-top: 30px;"> 
+												车辆编号:XXXXXXX<br>
+												车辆名称:雷克萨斯 <br>
+												车牌号	:XXXXXXX<br>
+									    <button id="fat-btn" class="btn btn-success" data-loading-text="Loading..."type="button"> 启用车辆
+								        </button>
+								        <button class="btn btn-large btn-default" type="button">删除车辆信息</button>  
+
+								<script>
+								    $(function() {
+								        $(".btn").click(function(){
+								            $(this).button('loading').delay(1000).queue(function() {
+								            // $(this).button('reset');
+								            // $(this).dequeue(); 
+								            });
+								        });
+								    });  
+								</script>
 												</div>
+												</div>
+	
+												
 											</div>
 										</div>
 									</div>
@@ -169,8 +212,28 @@
 
 											<div class="col-12 d-flex">
 												<div class="numbers text-center .col-md-6">
-													<h4 class="card-title">406会议室</h4>
-													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/15438208559256220181203.jpeg">
+													
+													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/3.jpg">
+												<div style="float:right;margin-left: 40px;margin-top: 30px;"> 
+												车辆编号:XXXXXXX<br>
+												车辆名称:玛莎拉蒂 <br>
+												车牌号	:XXXXXXX<br>
+												<button id="fat-btn" class="btn btn-success" data-loading-text="Loading..." 
+													    type="button"> 启用车辆
+												</button>
+												<button class="btn btn-large btn-default" type="button">删除车辆信息</button>  
+													<script>
+													    $(function() {
+													        $(".btn").click(function(){
+													            $(this).button('loading').delay(1000).queue(function() {
+													            // $(this).button('reset');
+													            // $(this).dequeue(); 
+													            });
+													        });
+													    });  
+													</script>
+									
+												</div>
 												</div>
 
 											</div>
@@ -184,10 +247,30 @@
 										<div class="row">
 
 											<div class="col-12 d-flex align-items-center">
-												<div class="numbers">
+												<div class="numbers text-center .col-md-6">
 
-													<h4 class="card-title">23</h4>
-													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/15438208559256220181203.jpeg">
+													
+													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/1.jpg">
+												<div style="float:right;margin-left: 40px;margin-top: 30px;"> 
+												车辆编号:XXXXXXX<br>
+												车辆名称: 奥 迪 R8<br>
+												车牌号	:XXXXXXX<br>
+												<button id="fat-btn" class="btn btn-success" data-loading-text="Loading..." 
+												    type="button"> 启用车辆
+												</button>
+												<button class="btn btn-large btn-default" type="button">删除车辆信息</button>
+												<script>
+												    $(function() {
+												        $(".btn").click(function(){
+												            $(this).button('loading').delay(1000).queue(function() {
+												            // $(this).button('reset');
+												            // $(this).dequeue(); 
+												            });
+												        });
+												    });  
+												</script>
+																					
+												</div>
 												</div>
 											</div>
 										</div>
@@ -204,7 +287,7 @@
 				<div class="container-fluid">
 
 					<div align="center">
-						版权所有：张博文
+						
 					</div>
 			</footer>
 			</div>

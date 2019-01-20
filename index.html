@@ -145,58 +145,87 @@
 			<!--以下是内容栏-->
 				<div class="main-panel">
 					<div class="content">
-						<div class="container-fluid">
-
-							<div class="col-md-12">
-								<div class="card card-stats">
-									<div class="card-body ">
-										<div class="row">
-
-											<div class="col-12 d-flex align-items-center">
-												<div class="numbers text-center">
-													<h4 class="card-title">415会议室</h4>
-													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/15438208559256220181203.jpeg">
-												</div>
+						<div class="row row-card-no-pd">
+							<div class="col-md-4">
+								<div class="card">
+									<div class="card-body">
+										
+										<p class="fw-bold mt-1">今日出车数量</p>
+										<h4><b>4015次</b></h4>
+									</div>
+									<div class="card-footer">
+										<ul class="nav">
+											
+											<li class="nav-item ml-auto"><a class="btn btn-default btn-link" href="#"><i class="la la-refresh"></i> Refresh</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="card">
+									<div class="card-body">
+										<div class="progress-card">
+											<div class="d-flex justify-content-between mb-1">
+												<span class="text-muted">空闲车辆</span>
+												<span class="text-muted fw-bold"> 58台</span>
+											</div>
+											<div class="progress mb-2" style="height: 7px;">
+												<div class="progress-bar bg-success" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="78%"></div>
+											</div>
+										</div>
+										<div class="progress-card">
+											<div class="d-flex justify-content-between mb-1">
+												<span class="text-muted">正在使用车辆</span>
+												<span class="text-muted fw-bold"> 20台</span>
+											</div>
+											<div class="progress mb-2" style="height: 7px;">
+												<div class="progress-bar bg-info" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="65%"></div>
+											</div>
+										</div>
+										<div class="progress-card">
+											<div class="d-flex justify-content-between mb-1">
+												<span class="text-muted">空闲驾驶员</span>
+												<span class="text-muted fw-bold"> 28人</span>
+											</div>
+											<div class="progress mb-2" style="height: 7px;">
+												<div class="progress-bar bg-primary" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="70%"></div>
+											</div>
+										</div>
+										<div class="progress-card">
+											<div class="d-flex justify-content-between mb-1">
+												<span class="text-muted">执行任务驾驶员</span>
+												<span class="text-muted fw-bold"> 20人</span>
+											</div>
+											<div class="progress mb-2" style="height: 7px;">
+												<div class="progress-bar bg-warning" role="progressbar" style="width: 44%" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="60%"></div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-12">
+							<div class="col-md-3">
 								<div class="card card-stats">
 									<div class="card-body">
+										<p class="fw-bold mt-1">排行榜</p>
+										
 										<div class="row">
-
-											<div class="col-12 d-flex">
-												<div class="numbers text-center .col-md-6">
-													<h4 class="card-title">406会议室</h4>
-													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/15438208559256220181203.jpeg">
+											<div class="col-5">
+												<div class="icon-big text-center">
+													<i class="la la-heart-o text-primary"></i>
 												</div>
-
 											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="card card-stats">
-									<div class="card-body">
-										<div class="row">
-
-											<div class="col-12 d-flex align-items-center">
+											<div class="col-7 d-flex align-items-center">
 												<div class="numbers">
-
-													<h4 class="card-title">23</h4>
-													<img class="img-responsive" width="100%" style="max-width: 300px;" src="img/15438208559256220181203.jpeg">
+													<p class="card-category">今日最佳驾驶员</p>
+													<h4 class="card-title">aaa</h4>
 												</div>
 											</div>
+											
 										</div>
 									</div>
 								</div>
 							</div>
-
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -204,7 +233,7 @@
 				<div class="container-fluid">
 
 					<div align="center">
-						版权所有：张博文
+						版权所有：张博文小组
 					</div>
 			</footer>
 			</div>
@@ -218,3 +247,10 @@
 	<script src="assets/js/demo.js"></script>
 
 </html>
+<!--
+	int shu[]=db.select("car","state=runing")
+	int shu2[]=db.select("run_car","id=shu['id']")
+	
+	
+	
+-->

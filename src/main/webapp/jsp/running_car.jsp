@@ -7,10 +7,10 @@
 	<title>公司车辆管理系统</title>
 	<meta charset="utf-8">
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-	<link rel="stylesheet" href="${path}assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="${path}/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-	<link rel="stylesheet" href="${path}assets/css/ready.css">
-	<link rel="stylesheet" href="${path}assets/css/demo.css">
+	<link rel="stylesheet" href="${path}/assets/css/ready.css">
+	<link rel="stylesheet" href="${path}/assets/css/demo.css">
 </head>
 
 
@@ -22,7 +22,7 @@
 	<!--以下是导航栏-->
 	<div class="main-header">
 		<div class="logo-header">
-			<a href="index.html" class="logo">
+			<a href="index.jsp" class="logo">
 				公司车辆信息管理
 			</a>
 			<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,12 +36,12 @@
 				<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
 
 					<li class="nav-item dropdown">
-						<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="${path}assets/img/profile.jpg" alt="user-img" width="36" class="img-circle"><span>管理员1</span></span>
+						<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="${path}/assets/img/profile.jpg" alt="user-img" width="36" class="img-circle"><span>管理员1</span></span>
 						</a>
 						<ul class="dropdown-menu dropdown-user">
 							<li>
 								<div class="user-box">
-									<div class="u-img"><img src="${path}assets/img/profile.jpg" alt="user"></div>
+									<div class="u-img"><img src="${path}/assets/img/profile.jpg" alt="user"></div>
 									<div class="u-text">
 										<h4>管理员1</h4>
 										<p class="text-muted">913473646@qq.com</p>
@@ -65,7 +65,7 @@
 		<div class="scrollbar-inner sidebar-wrapper">
 			<div class="user">
 				<div class="photo">
-					<img src="${path}assets/img/profile.jpg">
+					<img src="${path}/assets/img/profile.jpg">
 				</div>
 				<div class="info">
 					<a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
@@ -154,7 +154,7 @@
 
 								<div class="col-12 d-flex align-items-center" >
 									<div class="numbers text-center">
-										<img class="img-responsive" width="100%" style="float:left;max-width: 300px;" src="${path}img/a.jpg">
+										<img class="img-responsive" width="100%" style="float:left;max-width: 300px;" src="${path}/img/a.jpg">
 										<div style="float:left;margin-left: 40px;margin-top: 10px;">
 
 											<p>车辆名称:玛莎拉蒂 </p><br>
@@ -182,7 +182,7 @@
 
 								<div class="col-12 d-flex align-items-center" >
 									<div class="numbers text-center">
-										<img class="img-responsive" width="100%" style="float:left;max-width: 300px;" src="${path}img/b.jpg">
+										<img class="img-responsive" width="100%" style="float:left;max-width: 300px;" src="${path}/img/b.jpg">
 										<div style="float:left;margin-left: 40px;margin-top: 10px;">
 
 											<p>车辆名称:玛莎拉蒂 </p><br>
@@ -210,7 +210,7 @@
 
 								<div class="col-12 d-flex align-items-center" >
 									<div class="numbers text-center">
-										<img class="img-responsive" width="100%" style="float:left;max-width: 300px;" src="${path}img/c.jpg">
+										<img class="img-responsive" width="100%" style="float:left;max-width: 300px;" src="${path}/img/c.jpg">
 										<div style="float:left;margin-left: 40px;margin-top: 10px;">
 
 											<p>车辆名称:玛莎拉蒂 </p><br>
@@ -249,9 +249,9 @@
 </div>
 
 </body>
-<script src="${path}assets/js/core/jquery.3.2.1.min.js"></script>
-<script src="${path}assets/js/core/bootstrap.min.js"></script>
-<script src="${path}assets/js/ready.min.js"></script>
-<script src="${path}assets/js/demo.js"></script>
+<script src="${path}/assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="${path}/assets/js/core/bootstrap.min.js"></script>
+<script src="${path}/assets/js/ready.min.js"></script>
+<script src="${path}/assets/js/demo.js"></script>
 
 </html>

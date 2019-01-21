@@ -118,7 +118,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="car_resiger.html">
+								<a href="car_resiger.jsp">
 									<i class="la la-key"></i>
 									<p>车辆注册</p>
 								
@@ -126,7 +126,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="peo_resiger.html">
+								<a href="peo_resiger.jsp">
 									<i class="la la-group"></i>
 									<p>驾驶员注册</p>
 								

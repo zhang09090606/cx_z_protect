@@ -91,34 +91,34 @@
 						</div>
 						<ul class="nav">
 							<li class="nav-item ">
-								<a href="index.jsp">
+								<a href="${path}/jsp/index.jsp">
 									<i class="la la-dashboard"></i>
 									<p>首页</p>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="free_car.html">
+								<a href="${path}/jsp/free_car.jsp">
 									<i class="la la-cab"></i>
 									<p>查看空闲车辆</p>
 										<span class="badge badge-success">3</span>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="running_car.html">
+								<a href="${path}/jsp/running_car.jsp">
 									<i class="la la-keyboard-o"></i>
 									<p>查看已出车辆</p>
 
 								</a>
 							</li>
 							<li class="nav-item active">
-								<a href="fix_car.jsp">
+								<a href="${path}/jsp/fix_car.jsp">
 									<i class="la la-cogs"></i>
 									<p>待修理/加油车辆</p>
 									<span class="badge badge-danger">25</span>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="car_resiger.html">
+								<a href="${path}/jsp/car_resiger.jsp">
 									<i class="la la-key"></i>
 									<p>车辆注册</p>
 								
@@ -126,7 +126,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="peo_resiger.html">
+								<a href="${path}/jsp/peo_resiger.jsp">
 									<i class="la la-group"></i>
 									<p>驾驶员注册</p>
 								

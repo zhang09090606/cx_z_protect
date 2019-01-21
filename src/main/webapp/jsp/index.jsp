@@ -36,12 +36,12 @@
 						<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
 
 							<li class="nav-item dropdown">
-								<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="${path}/xampp/htdocs/cx/cx_z_protect/assets/img/profile.jpg" alt="user-img" width="36" class="img-circle"><span>管理员1</span></span>
+								<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="${path}/assets/img/profile.jpg" alt="user-img" width="36" class="img-circle"><span>管理员1</span></span>
 								</a>
 									<ul class="dropdown-menu dropdown-user">
 									<li>
 										<div class="user-box">
-											<div class="u-img"><img src="${path}/xampp/htdocs/cx/cx_z_protect/assets/img/profile.jpg" alt="user"></div>
+											<div class="u-img"><img src="${path}/assets/img/profile.jpg" alt="user"></div>
 											<div class="u-text">
 												<h4>管理员1</h4>
 												<p class="text-muted">913473646@qq.com</p>
@@ -65,7 +65,7 @@
 					<div class="scrollbar-inner sidebar-wrapper">
 						<div class="user">
 							<div class="photo">
-								<img src="${path}/xampp/htdocs/cx/cx_z_protect/assets/img/profile.jpg">
+								<img src="${path}/assets/img/profile.jpg">
 							</div>
 							<div class="info">
 								<a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
@@ -91,41 +91,41 @@
 						</div>
 						<ul class="nav">
 							<li class="nav-item active">
-								<a href="index.jsp">
+								<a href="${path}/jsp/index.jsp">
 									<i class="la la-dashboard"></i>
 									<p>首页</p>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="free_car.html">
+								<a href="${path}/jsp/free_car.jsp">
 									<i class="la la-cab"></i>
 									<p>查看空闲车辆</p>
 										<span class="badge badge-success">3</span>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="running_car.html">
+								<a href="${path}/jsp/running_car.jsp">
 									<i class="la la-keyboard-o"></i>
 									<p>查看已出车辆</p>
 
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="fix_car.jsp">
+								<a href="${path}/jsp/fix_car.jsp">
 									<i class="la la-cogs"></i>
 									<p>待修理/加油车辆</p>
 									<span class="badge badge-danger">25</span>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="car_resiger.html">
+								<a href="${path}/jsp/car_resiger.jsp">
 									<i class="la la-key"></i>
 									<p>车辆注册</p>
 								
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="peo_resiger.html">
+								<a href="${path}/jsp/peo_resiger.jsp">
 									<i class="la la-group"></i>
 									<p>驾驶员注册</p>
 								
@@ -242,10 +242,10 @@
 		</div>
 
 	</body>
-	<script src="${path}/xampp/htdocs/cx/cx_z_protect/assets/js/core/jquery.3.2.1.min.js"></script>
-	<script src="${path}/xampp/htdocs/cx/cx_z_protect/assets/js/core/bootstrap.min.js"></script>
-	<script src="${path}/xampp/htdocs/cx/cx_z_protect/assets/js/ready.min.js"></script>
-	<script src="${path}/xampp/htdocs/cx/cx_z_protect/assets/js/demo.js"></script>
+	<script src="${path}/assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="${path}/assets/js/core/bootstrap.min.js"></script>
+	<script src="${path}/assets/js/ready.min.js"></script>
+	<script src="${path}/assets/js/demo.js"></script>
 
 </html>
 <!--

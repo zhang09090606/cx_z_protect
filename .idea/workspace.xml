@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7bedc3-1642-4df0-8873-b0ac1579582d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/car_005fresiger_jsp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/free_005fcar_jsp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/peo_005fresiger_jsp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/running_005fcar_jsp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/car_resiger.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/free_car.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/peo_resiger.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/running_car.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-01-22" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/car_005fresiger_jsp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/free_005fcar_jsp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/peo_005fresiger_jsp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/running_005fcar_jsp.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/car_resiger.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/free_car.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/peo_resiger.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/running_car.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/fix_005fcar_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/fix_005fcar_jsp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/index_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/index_jsp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/fix_car.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/fix_car.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-01-21" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-01-21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/fix_005fcar_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/fix_005fcar_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/BookCrud/org/apache/jsp/jsp/index_jsp.java" />
-    </list>
+    <list default="true" id="fb7bedc3-1642-4df0-8873-b0ac1579582d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -843,16 +815,15 @@
       <workItem from="1548079397225" duration="278000" />
       <workItem from="1548079696631" duration="401000" />
       <workItem from="1548080807145" duration="2328000" />
-      <workItem from="1548085088846" duration="1905000" />
+      <workItem from="1548085088846" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21479000" />
+    <option name="totallyTimeSpent" value="21892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

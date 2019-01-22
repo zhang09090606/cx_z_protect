@@ -1,3 +1,4 @@
+#忽略根目录下target文件夹中的所有文件
 /target/*
-
-.project
+#忽略所有.protect文件
+*.project
